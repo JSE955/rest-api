@@ -6,3 +6,15 @@ VALUES(10002, current_date(), 'Izzy');
 
 INSERT INTO USER_DETAILS(id, birth_date, name)
 VALUES(10003, current_date(), 'Mazie');
+
+INSERT INTO POST(id, description, user_id)
+VALUES(20001, 'I want to learn AWS', 10001);
+
+INSERT INTO POST(id, description, user_id)
+VALUES(20002, 'I want to learn DevOps', 10001);
+
+INSERT INTO POST(id, description, user_id)
+VALUES(20003, 'I want to learn Java', 10002);
+
+INSERT INTO POST(id, description, user_id)
+VALUES(20004, 'I want to learn SQL', 10002);
